@@ -1,0 +1,143 @@
+:root {
+    --botones: #5DADE2;
+    --thead: #21b6b6;
+    --blanco: #fff;
+    --negro: #000;
+    --fuentePrincipal: 'Open Sans', sans-serif;
+}
+
+
+/*Globales*/
+
+body {
+    font-size: 1rem;
+    font-family: var(--fuentePrincipal);
+}
+
+img {
+    width: 5rem;
+}
+
+a {
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: var(--negro);
+}
+
+p {
+    font-size: 1.4rem;
+    color: var(--negro);
+    margin: 2rem 0 0 0;
+}
+
+
+/*Header*/
+
+.header {
+    text-align: center;
+}
+
+
+/*Navegacion*/
+
+.navegacion {
+    display: flex;
+    justify-content: right;
+    gap: 2rem;
+    padding: 3rem;
+    font-size: 0.6rem;
+}
+
+
+/*Menu*/
+
+.menuPrincipal {
+    display: grid;
+    text-align: center;
+    gap: 2rem;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+
+/*Boton*/
+
+.boton {
+    margin-top: 1.3rem;
+    background-color: var(--botones);
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    font-style: italic;
+    font-size: 1rem;
+}
+
+
+/*LOGINS*/
+
+.login {
+    text-align: center;
+    padding-top: 3rem;
+    font-size: 1.6rem;
+}
+
+
+/*Tabla tablas dados de alta*/
+
+.tablas table {
+    margin-top: 4rem;
+    border-spacing: 0;
+}
+
+.tablas thead {
+    background-color: var(--thead);
+}
+
+.tablas th {
+    width: 10%;
+    padding: 1.3rem;
+}
+
+
+/*ALERTA & ERROR*/
+
+.error {
+    margin-top: 1rem;
+    background-color: rgb(241, 249, 3);
+    font-size: 1rem;
+    text-align: center;
+}
+
+
+/*Centrado*/
+
+.centrado {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+
+/*Formulario*/
+
+.formulario legend {
+    font-size: 1.5rem;
+}
+
+.formulario label {
+    margin-top: 1.3rem;
+    display: block;
+}
+
+.formulario input:not([type="submit"]) {
+    padding: 0.5rem;
+    display: block;
+    width: auto;
+    border: 1px solid var(--negro);
+}
+
+
+/*Footer*/
+
+.footer {
+    margin-top: 5rem;
+    text-align: center;
+}

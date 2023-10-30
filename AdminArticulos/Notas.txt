@@ -1,0 +1,25 @@
+
+Articulos.
+
+* En la creacion del articulo, coloca: Familia y/o categoria, precio, tipo de recepcion
+
+Clientes.
+* Quita la parte del MENU, coloca un if para que se muestre en ciertas partes
+* Inserta columna de RFC
+
+Inventario
+* Coloca o crea una tabla: Inventario por orden de recibo (Validar que y que tanto entro) --Opcional--
+* La tabla de recibo debe de verse en el la pestaña de inventario (este sera el resumen de inventario) con las columnas de idArticulo, descripcion, cantidad, cliente (crear un filtro por cuenta, id, descripcion)--Todos los datos se deben de mostrar de manera automatica antes de crear el filtro con JS--
+
+Recibo
+* Se mostrara una tabla como la de clientes y articulos, en la que se mostrara el id de la orden, la fecha, idCliente
+* Los campos al crear la tabla de recibo deben de ser iguales o parecidos a la tabla de salida: idArticulo, Orden de compra, idCliente(opcion para seleccionar por medio de un filtro(option, select)). Tratar de mostrar los datos que se vayan ingresando a un costado o en la parte de abajo de todos los campos
+
+Salida
+* Se mostrara una tabla como la de clientes y articulos, en la que se mostrara el id de la orden, la fecha, el numero de cuenta
+* Los campos al crear la tabla de salidas deben de ser iguales o parecidos a la tabla de recibo: idArticulo, Orden de compra, idCliente (). Tratar de mostrar los datos que se vayan ingresando a un costado o en la parte de abajo de todos los campos
+
+Administrador
+* Se mostrara un menu en el que tenga autorizacion total, actualizar, eliminar, agregar usuarios, articulos etc, quitar, poner. Un menu completo
+
+
